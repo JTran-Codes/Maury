@@ -21,7 +21,7 @@ MyAge = int(MyAge)
 # incorporating an integer we must identify it as so, if not then it will display an error because it is expecting a string
 
 
-print ('Wow you will be ' + str(int(MyAge)+ 2) + ' in two next years')
+print ('Wow you will be ' + str(int(MyAge)+ 2) + ' in two years')
 # for us to add an integer into a string we must identify the integer as a string
 # place int(myAge) + 1 into its own bracket and placing “str” to convert the integer so it can be identified by the editor as a string.
 
@@ -38,5 +38,7 @@ HerAge = input ()
 print ('Well ' + MyName + ' hope you are comfortable, because ' + HerName + ' has been watching backstage this whole time. Common out!')
 print ('Welcome ' + HerName + ', so is he really ' + str(int(MyAge) - int(HerAge)) + ' older than you?')
 input ()
+
+print ('That is wild!')
 
 
